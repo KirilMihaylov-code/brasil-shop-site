@@ -25,3 +25,4 @@ footer { padding: 40px 0; border-top: 1px solid #e2e8f0; }
   display: none; z-index: 9999;
 }
 .cookie-banner button { margin-left: 8px; }
+.card-img-top { object-fit: cover; height: 180px; }

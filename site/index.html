@@ -4,9 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Brasil Shop — Любими бразилски продукти в България</title>
-  <meta name="description" content="Поръчай автентични бразилски продукти, доставени в България. Бърза поръчка с име, имейл и телефон." />
+  <meta name="description" content="Поръчай автентични бразилски продукти, доставени в България. Бърза поръчка за 30 секунди." />
   <meta property="og:title" content="Brasil Shop" />
-  <meta property="og:description" content="Атрактивни бразилски продукти. Поръчка за 30 секунди." />
+  <meta property="og:description" content="Атрактивни бразилски продукти. Поръчай сега." />
   <meta property="og:image" content="/assets/img/og-image.jpg" />
   <link rel="icon" href="/assets/img/favicon.png" />
   <!-- Bootstrap 5 -->
@@ -16,16 +16,17 @@
 <body>
 
   <!-- NAV -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="/">Brasil Shop</a>
+      <a class="navbar-brand fw-bold" href="/">Brasil Shop</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div id="mainNav" class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#products">Продукти</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">За нас</a></li>
+          <li class="nav-item"><a class="nav-link" href="#offer">Оферта</a></li>
+          <li class="nav-item"><a class="nav-link" href="#desire">Продукти</a></li>
+          <li class="nav-item"><a class="nav-link" href="#credibility">Доверие</a></li>
           <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
           <li class="nav-item"><a class="nav-link" href="#order">Поръчай</a></li>
           <li class="nav-item"><a class="nav-link" href="/terms">Условия</a></li>
@@ -35,41 +36,139 @@
     </div>
   </nav>
 
-  <!-- HERO -->
+  <!-- HERO (Clarity) -->
   <header class="hero">
     <div class="container">
       <div class="row align-items-center g-4">
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold">Бразилски вкус у дома</h1>
-          <p class="lead text-secondary">Подбрани продукти от Бразилия, доставени бързо в България.</p>
-          <a class="btn btn-primary btn-lg" href="#order">Поръчай сега</a>
+          <p class="lead text-secondary">Подбрани продукти от Бразилия, доставени бързо в България. <span class="badge bg-primary">Нови доставки всяка седмица</span></p>
+          <div class="d-flex flex-wrap gap-2">
+            <a class="btn btn-primary btn-lg" href="#order">Поръчай сега</a>
+            <a class="btn btn-outline-secondary btn-lg" href="#desire">Виж продуктите</a>
+          </div>
+          <ul class="list-unstyled mt-3 text-muted small">
+            <li>• Поръчка без регистрация</li>
+            <li>• Поддръжка BG/PT/ES/EN</li>
+            <li>• 14 дни право на отказ (ЗЗП)</li>
+          </ul>
         </div>
         <div class="col-lg-6 text-center">
-          <!-- placeholder за твоята hero снимка/банер от темплейта -->
+          <!-- TODO: смени с твоя hero визуал от темплейта -->
           <img src="/assets/img/og-image.jpg" class="img-fluid rounded" alt="Brasil Shop">
         </div>
       </div>
     </div>
   </header>
 
-  <!-- PRODUCTS -->
-  <section id="products" class="section">
+  <!-- OFFER (Action) -->
+  <section id="offer" class="section bg-light">
     <div class="container">
-      <h2 class="h3 mb-4">Продукти</h2>
-      <!-- Тук можеш да вкараш карти/грид; за старт селектът в поръчката чете products.json -->
-      <p class="text-secondary">Виж наличните продукти в списъка за поръчка по-долу.</p>
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-7">
+          <h2 class="h3 mb-3">Специална оферта</h2>
+          <!-- TODO: оферта с ограничение -->
+          <p class="mb-2"><strong>Само тази седмица:</strong> 3 избрани продукта с -10% при поръчка над 49 лв.</p>
+          <p class="mb-3 text-secondary">Безплатна доставка над 99 лв. Важи до изчерпване на количествата.</p>
+          <div class="d-flex gap-2">
+            <a href="#order" class="btn btn-primary btn-lg">Вземи офертата</a>
+            <a href="#desire" class="btn btn-outline-secondary btn-lg">Разгледай още</a>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="border rounded p-3 bg-white">
+            <h3 class="h5">Алтернативна оферта (Downsell)</h3>
+            <!-- TODO: по-лека оферта -->
+            <p class="mb-2">Тествай с 1 продукт + подарък проба (ограничени бройки).</p>
+            <a href="#order" class="btn btn-outline-primary">Поръчай тест комплект</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- ABOUT -->
-  <section id="about" class="section bg-light">
+  <!-- CREDIBILITY -->
+  <section id="credibility" class="section">
     <div class="container">
-      <h2 class="h3 mb-3">Защо да избереш нас</h2>
-      <ul class="list-unstyled">
-        <li>• Подбрани автентични продукти</li>
-        <li>• Бърза поръчка без създаване на профил</li>
-        <li>• Локална поддръжка (BG/PT/ES/EN)</li>
-      </ul>
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <h2 class="h3">Доверие</h2>
+          <!-- TODO: статистики -->
+          <ul class="list-unstyled text-secondary">
+            <li><strong>1000+</strong> поръчки изпратени</li>
+            <li><strong>4.9/5</strong> среден рейтинг от клиенти</li>
+            <li><strong>48ч</strong> среден срок на доставка</li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h3 class="h5">Гаранция</h3>
+          <!-- TODO: текст гаранция -->
+          <p class="text-secondary">14 дни право на отказ по ЗЗП. Ако продуктът не отговаря, замяна или връщане.</p>
+        </div>
+        <div class="col-lg-4">
+          <h3 class="h5">Партньори</h3>
+          <!-- TODO: лога доставчици/куриери -->
+          <p class="text-secondary">Работим само с проверени доставчици и куриери.</p>
+        </div>
+      </div>
+      <!-- TODO: Тестимониали -->
+      <div class="row g-3 mt-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <p class="mb-1">„Уникални вкусове, бърза доставка!“</p>
+              <small class="text-muted">— Мария Д.</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <p class="mb-1">„Гуарана и pão de queijo—точно както в Бразилия.“</p>
+              <small class="text-muted">— Иван К.</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <p class="mb-1">„Ще поръчам пак. Добро обслужване.“</p>
+              <small class="text-muted">— Анна П.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESIRE (Продукти) -->
+  <section id="desire" class="section bg-light">
+    <div class="container">
+      <h2 class="h3 mb-4">Избрани продукти</h2>
+      <div id="productsGrid" class="row g-3">
+        <!-- JS ще рендерира картите тук от products.json -->
+      </div>
+      <p class="text-secondary mt-3">Пълният списък е наличен в падащото меню на поръчката.</p>
+    </div>
+  </section>
+      <!-- TODO: тук ще закачим реални карти; засега насочваме към формата и ползваме products.json -->
+      <div class="row g-3">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="ratio ratio-4x3 bg-secondary-subtle rounded-top"></div>
+            <div class="card-body">
+              <h3 class="h6 mb-1">Açúcar União 1kg</h3>
+              <div class="text-muted small mb-2">Ситна кристална захар</div>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-semibold">4.90 лв.</span>
+                <a class="btn btn-sm btn-outline-primary" href="#order">Поръчай</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Можеш да дублираш още 2-3 карти като плейсхолдер -->
+      </div>
+      <p class="text-secondary mt-3">Пълният списък е наличен в падащото меню на поръчката. </p>
     </div>
   </section>
 
@@ -91,29 +190,30 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2">Мога ли да върна?</button>
           </h2>
           <div id="a2" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
-            <div class="accordion-body">Да, според <a href="/terms">Общи условия</a> и ЗЗП (в рамките на 14 дни за дистанционни продажби).</div>
+            <div class="accordion-body">Да, според <a href="/terms">Общи условия</a> и ЗЗП (14 дни за дистанционни продажби).</div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ORDER FORM (Netlify Forms) -->
+  <!-- ORDER FORM (вече работеща Netlify форма) -->
   <section id="order" class="section bg-light">
     <div class="container">
       <h2 class="h3 mb-4">Бърза поръчка</h2>
 
-      <form id="orderForm" name="order" method="POST" data-netlify="true" netlify-honeypot="website" action="/thanks.html">
-        <!-- Netlify forms needs this hidden input -->
+      <form id="orderForm" name="order" method="POST" data-netlify="true" netlify-honeypot="website" action="/thanks">
         <input type="hidden" name="form-name" value="order">
-        <input type="hidden" name="product_name" id="product_name">
-        <input type="hidden" name="product_price" id="product_price">
-        <input type="hidden" name="page_url" id="page_url">
-        <input type="hidden" name="submitted_at" id="submitted_at">
         <!-- Honeypot -->
         <div style="display:none;">
           <label>Website: <input name="website" type="text"></label>
         </div>
+
+        <!-- Скрити полета за по-полезен CSV -->
+        <input type="hidden" name="product_name" id="product_name">
+        <input type="hidden" name="product_price" id="product_price">
+        <input type="hidden" name="page_url" id="page_url">
+        <input type="hidden" name="submitted_at" id="submitted_at">
 
         <div class="row g-3">
           <div class="col-md-6">
@@ -152,7 +252,7 @@
           </div>
 
           <div class="col-12">
-            <button type="submit" class="btn btn-primary">Изпрати поръчка</button>
+            <button type="submit" class="btn btn-primary btn-lg">Изпрати поръчка</button>
           </div>
         </div>
       </form>

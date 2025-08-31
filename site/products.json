@@ -1,5 +1,23 @@
 [
-  { "id": "acucar-uniao", "name": "Açúcar União 1kg", "price": 4.90 },
-  { "id": "guarana", "name": "Guaraná Antarctica 2L", "price": 5.50 },
-  { "id": "pao-de-queijo", "name": "Pão de Queijo (congelado)", "price": 12.90 }
+  {
+    "id": "acucar-uniao",
+    "name": "Açúcar União 1kg",
+    "price": 4.90,
+    "desc": "Ситна кристална захар за десерти и кафе.",
+    "image": "/assets/img/products/acucar.jpg"
+  },
+  {
+    "id": "guarana",
+    "name": "Guaraná Antarctica 2L",
+    "price": 5.50,
+    "desc": "Класическа бразилска газирана напитка.",
+    "image": "/assets/img/products/guarana.jpg"
+  },
+  {
+    "id": "pao-de-queijo",
+    "name": "Pão de Queijo (замразен)",
+    "price": 12.90,
+    "desc": "Бразилски хлебчета със сирене, готови за печене.",
+    "image": "/assets/img/products/pao.jpg"
+  }
 ]
