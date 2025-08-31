@@ -1,0 +1,5 @@
+[
+  { "id": "acucar-uniao", "name": "Açúcar União 1kg", "price": 4.90 },
+  { "id": "guarana", "name": "Guaraná Antarctica 2L", "price": 5.50 },
+  { "id": "pao-de-queijo", "name": "Pão de Queijo (congelado)", "price": 12.90 }
+]
