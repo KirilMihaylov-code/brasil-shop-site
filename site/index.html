@@ -103,9 +103,13 @@
     <div class="container">
       <h2 class="h3 mb-4">Бърза поръчка</h2>
 
-      <form id="orderForm" name="order" method="POST" data-netlify="true" netlify-honeypot="website">
+      <form id="orderForm" name="order" method="POST" data-netlify="true" netlify-honeypot="website" action="/thanks.html">
         <!-- Netlify forms needs this hidden input -->
         <input type="hidden" name="form-name" value="order">
+        <input type="hidden" name="product_name" id="product_name">
+        <input type="hidden" name="product_price" id="product_price">
+        <input type="hidden" name="page_url" id="page_url">
+        <input type="hidden" name="submitted_at" id="submitted_at">
         <!-- Honeypot -->
         <div style="display:none;">
           <label>Website: <input name="website" type="text"></label>
