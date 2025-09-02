@@ -1,0 +1,60 @@
+{
+  "nav.offer": "Oferta",
+  "nav.products": "Productos",
+  "nav.credibility": "Confianza",
+  "nav.faq": "FAQ",
+  "nav.order": "Pedir",
+  "nav.terms": "Términos",
+  "nav.privacy": "Privacidad",
+
+  "hero.title": "Sabor de Brasil en casa",
+  "hero.subtitle": "Productos seleccionados de Brasil, entregados rápidamente en Bulgaria.",
+  "hero.ctaPrimary": "Pedir ahora",
+  "hero.ctaSecondary": "Ver productos",
+  "hero.bullet1": "Pedido sin registro",
+  "hero.bullet2": "Soporte BG/PT/ES/EN",
+  "hero.bullet3": "Derecho de devolución en 14 días",
+
+  "offer.title": "Oferta especial",
+  "offer.line1": "Solo esta semana: -10% a partir de 49 leva.",
+  "offer.line2": "Envío gratis a partir de 99 leva.",
+  "offer.ctaPrimary": "Aprovechar oferta",
+  "offer.ctaSecondary": "Explorar más",
+  "offer.downsellTitle": "Oferta alternativa",
+  "offer.downsellText": "Prueba con 1 producto + muestra de regalo (unidades limitadas).",
+  "offer.downsellCta": "Pedir kit de prueba",
+
+  "cred.title": "Confianza",
+  "cred.stat1": "1000+ pedidos enviados",
+  "cred.stat2": "4.9/5 valoración media",
+  "cred.stat3": "48h plazo medio de entrega",
+  "cred.guarantee": "14 días para devoluciones según la ley.",
+  "cred.partners": "Solo proveedores y transportistas verificados.",
+
+  "desire.title": "Productos destacados",
+  "desire.note": "La lista completa está en el menú del pedido.",
+
+  "faq.title": "Preguntas frecuentes",
+  "faq.q1": "¿Cómo es la entrega?",
+  "faq.a1": "Entrega por mensajería en todo el país; detalles en Términos.",
+  "faq.q2": "¿Puedo devolver?",
+  "faq.a2": "Sí, según los Términos (14 días para compras a distancia).",
+
+  "order.title": "Pedido rápido",
+  "order.name": "Nombre y apellido",
+  "order.email": "Correo electrónico",
+  "order.phone": "Teléfono",
+  "order.product": "Producto",
+  "order.consent": "Acepto la Política de Privacidad.",
+  "order.marketing": "Deseo recibir ofertas y novedades.",
+  "order.submit": "Enviar pedido",
+  "order.note": "Nos pondremos en contacto para confirmar los detalles.",
+
+  "cookie.text": "Usamos cookies para mejorar su experiencia.",
+  "cookie.btn": "Vale",
+
+  "footer.terms": "Términos",
+  "footer.privacy": "Privacidad",
+  "footer.cookies": "Cookies",
+  "footer.contacts": "Contactos"
+}

@@ -1,0 +1,60 @@
+{
+  "nav.offer": "Oferta",
+  "nav.products": "Produtos",
+  "nav.credibility": "Confiança",
+  "nav.faq": "FAQ",
+  "nav.order": "Pedir",
+  "nav.terms": "Termos",
+  "nav.privacy": "Privacidade",
+
+  "hero.title": "Sabor do Brasil em casa",
+  "hero.subtitle": "Produtos selecionados do Brasil, entregues rapidamente na Bulgária.",
+  "hero.ctaPrimary": "Peça agora",
+  "hero.ctaSecondary": "Ver produtos",
+  "hero.bullet1": "Pedido sem cadastro",
+  "hero.bullet2": "Suporte BG/PT/ES/EN",
+  "hero.bullet3": "Direito de devolução em 14 dias",
+
+  "offer.title": "Oferta especial",
+  "offer.line1": "Somente esta semana: -10% acima de 49 leva.",
+  "offer.line2": "Envio grátis acima de 99 leva.",
+  "offer.ctaPrimary": "Aproveitar oferta",
+  "offer.ctaSecondary": "Explorar mais",
+  "offer.downsellTitle": "Oferta alternativa",
+  "offer.downsellText": "Teste com 1 produto + brinde (quantidades limitadas).",
+  "offer.downsellCta": "Pedir kit de teste",
+
+  "cred.title": "Confiança",
+  "cred.stat1": "1000+ pedidos enviados",
+  "cred.stat2": "4.9/5 avaliação média",
+  "cred.stat3": "48h prazo médio de entrega",
+  "cred.guarantee": "14 dias para devolução conforme legislação.",
+  "cred.partners": "Somente fornecedores e transportadoras certificados.",
+
+  "desire.title": "Produtos em destaque",
+  "desire.note": "A lista completa está no menu do pedido.",
+
+  "faq.title": "Perguntas frequentes",
+  "faq.q1": "Como é a entrega?",
+  "faq.a1": "Entrega por transportadora em todo o país; detalhes nos Termos.",
+  "faq.q2": "Posso devolver?",
+  "faq.a2": "Sim, conforme os Termos (14 dias para compras à distância).",
+
+  "order.title": "Pedido rápido",
+  "order.name": "Nome e sobrenome",
+  "order.email": "E-mail",
+  "order.phone": "Telefone",
+  "order.product": "Produto",
+  "order.consent": "Concordo com a Política de Privacidade.",
+  "order.marketing": "Desejo receber ofertas e novidades.",
+  "order.submit": "Enviar pedido",
+  "order.note": "Entraremos em contato para confirmar os detalhes.",
+
+  "cookie.text": "Usamos cookies para melhorar sua experiência.",
+  "cookie.btn": "OK",
+
+  "footer.terms": "Termos",
+  "footer.privacy": "Privacidade",
+  "footer.cookies": "Cookies",
+  "footer.contacts": "Contatos"
+}
