@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Управление на бисквитките — Brasil Shop</title>
+<link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+<main class="container section">
+<h1>Управление на бисквитките</h1>
+<p>Можете да промените предпочитанията си за аналитични и маркетингови бисквитки:</p>
+<button id="cookies-accept" class="btn btn-primary">Приемам всички</button>
+<button id="cookies-decline" class="btn btn-outline-secondary">Отказвам маркетингови</button>
+<p class="mt-3 text-muted">Решението Ви може да бъде променено по всяко време тук.</p>
+</main>
+<script>
+  const KEY='cookie_consent_v1';
+  document.getElementById('cookies-accept').addEventListener('click',()=>{localStorage.setItem(KEY,'yes');alert('Запаметено: приемате бисквитки.');});
+  document.getElementById('cookies-decline').addEventListener('click',()=>{localStorage.setItem(KEY,'decline_marketing');alert('Запаметено: отказвате маркетингови бисквитки.');});
+</script>
+</body>
+</html>

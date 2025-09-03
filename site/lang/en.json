@@ -1,6 +1,9 @@
 {
-  "nav.offer": "Offer",
+  "nav.home": "Home",
+  "nav.about": "About",
   "nav.products": "Products",
+  "nav.contacts": "Contacts",
+  "nav.offer": "Offer",
   "nav.credibility": "Trust",
   "nav.faq": "FAQ",
   "nav.order": "Order",
@@ -14,6 +17,9 @@
   "hero.bullet1": "Order without registration",
   "hero.bullet2": "Support BG/PT/ES/EN",
   "hero.bullet3": "14-day return right",
+
+  "about.title": "About us",
+  "about.body": "Authentic Brazilian products, BG/PT/ES/EN support, nationwide delivery.",
 
   "offer.title": "Special offer",
   "offer.line1": "This week only: -10% above 49 leva.",
@@ -45,7 +51,7 @@
   "order.email": "Email",
   "order.phone": "Phone",
   "order.product": "Product",
-  "order.consent": "I agree with the Privacy Policy.",
+  "order.consent": "I agree with the",
   "order.marketing": "I wish to receive offers and news.",
   "order.submit": "Send order",
   "order.note": "We will contact you to confirm details.",
@@ -56,5 +62,7 @@
   "footer.terms": "Terms",
   "footer.privacy": "Privacy",
   "footer.cookies": "Cookies",
+  "footer.returns": "Returns/Cancellation",
+  "footer.cookieSettings": "Cookie settings",
   "footer.contacts": "Contacts"
 }

@@ -7,8 +7,8 @@
   <title>Brasil Shop — Бразилски вкус у дома</title>
   <meta name="description" content="Подбрани бразилски продукти, доставени бързо в България. Поръчка без регистрация." />
 
-  <!-- Canonical (замени домейна при нужда) -->
-  <link rel="canonical" href="https://brasil-shop-site.netlify.app/" />
+  <!-- Canonical -->
+  <link rel="canonical" href="https://YOUR_NETLIFY_DOMAIN/" />
 
   <!-- Open Graph -->
   <meta property="og:locale" content="bg_BG" />
@@ -16,8 +16,8 @@
   <meta property="og:site_name" content="Brasil Shop" />
   <meta property="og:title" content="Brasil Shop — Бразилски вкус у дома" />
   <meta property="og:description" content="Подбрани бразилски продукти, доставени бързо в България. Поръчка без регистрация." />
-  <meta property="og:url" content="https://brasil-shop-site.netlify.app/" />
-  <meta property="og:image" content="https://YOUR_DOMAIN/assets/img/og-image.jpg" />
+  <meta property="og:url" content="https://YOUR_NETLIFY_DOMAIN/" />
+  <meta property="og:image" content="https://YOUR_NETLIFY_DOMAIN/assets/img/og-image.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="Подбрани бразилски продукти — Brasil Shop" />
@@ -32,25 +32,31 @@
   <!-- JSON-LD -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Brasil Shop",
-    "url": "https://brasil-shop-site.netlify.app/",
-    "logo": "https://YOUR_DOMAIN/assets/img/og-image.jpg",
-    "sameAs": [
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Brasil Shop",
+    "url":"https://YOUR_NETLIFY_DOMAIN/",
+    "logo":"https://YOUR_NETLIFY_DOMAIN/assets/img/og-image.jpg",
+    "sameAs":[
       "https://www.facebook.com/YOUR_FACEBOOK_PAGE",
       "https://www.instagram.com/YOUR_INSTAGRAM_HANDLE",
       "https://www.youtube.com/@YOUR_YOUTUBE_CHANNEL"
     ],
-    "contactPoint": [{
-      "@type": "ContactPoint",
-      "contactType": "customer support",
-      "email": "info@YOUR_DOMAIN",
-      "telephone": "+359XXXXXXXXX",
-      "areaServed": "BG"
+    "contactPoint":[{
+      "@type":"ContactPoint",
+      "contactType":"customer support",
+      "email":"CONTACT_EMAIL",
+      "telephone":"CONTACT_PHONE",
+      "areaServed":"BG"
     }]
   }
   </script>
+  <style>
+    .cookie-banner{display:none;position:fixed;left:0;right:0;bottom:0;z-index:9999;background:#222;color:#fff;padding:.75rem 1rem}
+    .cookie-banner a{color:#fff;text-decoration:underline}
+    .hero{padding:56px 0}
+    .section{padding:56px 0}
+  </style>
 </head>
 <body>
 
@@ -63,13 +69,11 @@
       </button>
       <div id="mainNav" class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto align-items-lg-center">
-          <li class="nav-item"><a class="nav-link" href="#offer" data-i18n="nav.offer">Оферта</a></li>
+          <li class="nav-item"><a class="nav-link" href="/" data-i18n="nav.home">Начало</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav.about">За нас</a></li>
           <li class="nav-item"><a class="nav-link" href="#desire" data-i18n="nav.products">Продукти</a></li>
-          <li class="nav-item"><a class="nav-link" href="#credibility" data-i18n="nav.credibility">Доверие</a></li>
-          <li class="nav-item"><a class="nav-link" href="#faq" data-i18n="nav.faq">FAQ</a></li>
-          <li class="nav-item"><a class="nav-link" href="#order" data-i18n="nav.order">Поръчай</a></li>
-          <li class="nav-item"><a class="nav-link" href="/terms" data-i18n="nav.terms">Условия</a></li>
-          <li class="nav-item"><a class="nav-link" href="/privacy" data-i18n="nav.privacy">Поверителност</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contacts" data-i18n="nav.contacts">Контакти</a></li>
+
           <!-- Language switcher -->
           <li class="nav-item ms-lg-3">
             <div class="btn-group" role="group" aria-label="Language">
@@ -84,7 +88,22 @@
     </div>
   </nav>
 
-  <!-- HERO (Clarity) -->
+  <!-- Social row (под навигацията) -->
+  <div class="bg-body-tertiary border-top border-bottom">
+    <div class="container d-flex gap-3 py-2 justify-content-end">
+      <a href="https://facebook.com/YOUR_FACEBOOK_PAGE" class="text-decoration-none text-muted" aria-label="Facebook" rel="noopener" target="_blank">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12.07C22 6.49 17.52 2 11.93 2S2 6.49 2 12.07c0 5.02 3.66 9.19 8.44 9.98v-7.06H7.9v-2.92h2.54V9.41c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.19 2.23.19v2.45h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.78l-.44 2.92h-2.34v7.06C18.34 21.26 22 17.09 22 12.07z"/></svg>
+      </a>
+      <a href="https://instagram.com/YOUR_INSTAGRAM_HANDLE" class="text-decoration-none text-muted" aria-label="Instagram" rel="noopener" target="_blank">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2.2A2.8 2.8 0 1 0 12 16 2.8 2.8 0 0 0 12 9.2zM18 6.8a1.2 1.2 0 1 1-2.4 0 1.2 1.2 0 0 1 2.4 0z"/></svg>
+      </a>
+      <a href="https://youtube.com/@YOUR_YOUTUBE_CHANNEL" class="text-decoration-none text-muted" aria-label="YouTube" rel="noopener" target="_blank">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .6 5.8 3 3 0 0 0 2.1 2.1C4.5 20.5 12 20.5 12 20.5s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1c.4-1.9.6-3.8.5-5.8a31 31 0 0 0-.5-5.8zM9.8 15.5V8.5л6.3 3.5-6.3 3.5z"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- HERO -->
   <header class="hero">
     <div class="container">
       <div class="row align-items-center g-4">
@@ -108,14 +127,22 @@
     </div>
   </header>
 
-  <!-- OFFER (Action) -->
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="h3" data-i18n="about.title">За нас</h2>
+      <p class="text-secondary" data-i18n="about.body">Подбрани автентични бразилски продукти, обслужване на BG/PT/ES/EN, доставка в цялата страна.</p>
+    </div>
+  </section>
+
+  <!-- OFFER -->
   <section id="offer" class="section bg-light">
     <div class="container">
       <div class="row g-4 align-items-center">
         <div class="col-lg-7">
           <h2 class="h3 mb-3" data-i18n="offer.title">Специална оферта</h2>
-          <p class="mb-2" data-i18n="offer.line1"><strong>Само тази седмица:</strong> -10% при поръчка над 49 лв.</p>
-          <p class="mb-3 text-secondary" data-i18n="offer.line2">Безплатна доставка над 99 лв. Важи до изчерпване на количествата.</p>
+          <p class="mb-2" data-i18n="offer.line1">Само тази седмица: -10% при поръчка над 49 лв.</p>
+          <p class="mb-3 text-secondary" data-i18n="offer.line2">Безплатна доставка над 99 лв.</p>
           <div class="d-flex gap-2">
             <a href="#order" class="btn btn-primary btn-lg" data-i18n="offer.ctaPrimary">Вземи офертата</a>
             <a href="#desire" class="btn btn-outline-secondary btn-lg" data-i18n="offer.ctaSecondary">Разгледай още</a>
@@ -153,44 +180,14 @@
           <p class="text-secondary" data-i18n="cred.partners">Работим само с проверени доставчици и куриери.</p>
         </div>
       </div>
-
-      <!-- Testimonials (статични текстове за сега; може да ги изнесем в i18n при нужда) -->
-      <div class="row g-3 mt-4">
-        <div class="col-md-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <p class="mb-1">„Уникални вкусове, бърза доставка!“</p>
-              <small class="text-muted">— Мария Д.</small>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <p class="mb-1">„Гуарана и pão de queijo—точно както в Бразилия.“</p>
-              <small class="text-muted">— Иван К.</small>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <p class="mb-1">„Ще поръчам пак. Добро обслужване.“</p>
-              <small class="text-muted">— Анна П.</small>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
-  <!-- DESIRE (Продукти) -->
+  <!-- DESIRE (Products) -->
   <section id="desire" class="section bg-light">
     <div class="container">
       <h2 class="h3 mb-4" data-i18n="desire.title">Избрани продукти</h2>
-      <div id="productsGrid" class="row g-3">
-        <!-- JS рендерира картите тук -->
-      </div>
+      <div id="productsGrid" class="row g-3"></div>
       <p class="text-secondary mt-3" data-i18n="desire.note">Пълният списък е наличен в падащото меню на поръчката.</p>
     </div>
   </section>
@@ -227,12 +224,8 @@
 
       <form id="orderForm" name="order" method="POST" data-netlify="true" netlify-honeypot="website" action="/thanks">
         <input type="hidden" name="form-name" value="order">
-        <!-- Honeypot -->
-        <div style="display:none;">
-          <label>Website: <input name="website" type="text"></label>
-        </div>
+        <div style="display:none;"><label>Website: <input name="website" type="text"></label></div>
 
-        <!-- Скрити полета -->
         <input type="hidden" name="product_name" id="product_name">
         <input type="hidden" name="product_price" id="product_price">
         <input type="hidden" name="page_url" id="page_url">
@@ -262,8 +255,7 @@
             <div class="form-check">
               <input id="consent" name="consent" class="form-check-input" type="checkbox" required>
               <label class="form-check-label" for="consent">
-                <span data-i18n="order.consent">Съгласен/на съм с Политиката за поверителност.</span>
-                <a href="/privacy" target="_blank"> </a>
+                <span data-i18n="order.consent">Съгласен/на съм с</span> <a href="/privacy" target="_blank">Политиката за поверителност</a>.
               </label>
             </div>
             <div class="form-check mt-2">
@@ -274,9 +266,7 @@
             </div>
           </div>
 
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary btn-lg" data-i18n="order.submit">Изпрати поръчка</button>
-          </div>
+          <div class="col-12"><button type="submit" class="btn btn-primary btn-lg" data-i18n="order.submit">Изпрати поръчка</button></div>
         </div>
       </form>
 
@@ -291,7 +281,9 @@
       <ul class="nav">
         <li class="nav-item"><a class="nav-link px-2" href="/terms" data-i18n="footer.terms">Общи условия</a></li>
         <li class="nav-item"><a class="nav-link px-2" href="/privacy" data-i18n="footer.privacy">Поверителност</a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="/returns" data-i18n="footer.returns">Връщане/Отмяна</a></li>
         <li class="nav-item"><a class="nav-link px-2" href="/cookies" data-i18n="footer.cookies">Бисквитки</a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="/cookie-settings" data-i18n="footer.cookieSettings">Управление на бисквитките</a></li>
         <li class="nav-item"><a class="nav-link px-2" href="/contacts" data-i18n="footer.contacts">Контакти</a></li>
       </ul>
     </div>
@@ -303,9 +295,7 @@
     <button id="cookieAccept" class="btn btn-light btn-sm" data-i18n="cookie.btn">Разбрах</button>
   </div>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="/assets/js/main.js"></script>
 </body>

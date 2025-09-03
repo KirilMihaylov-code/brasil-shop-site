@@ -1,6 +1,9 @@
 {
-  "nav.offer": "Oferta",
+  "nav.home": "Inicio",
+  "nav.about": "Sobre nosotros",
   "nav.products": "Productos",
+  "nav.contacts": "Contactos",
+  "nav.offer": "Oferta",
   "nav.credibility": "Confianza",
   "nav.faq": "FAQ",
   "nav.order": "Pedir",
@@ -14,6 +17,9 @@
   "hero.bullet1": "Pedido sin registro",
   "hero.bullet2": "Soporte BG/PT/ES/EN",
   "hero.bullet3": "Derecho de devolución en 14 días",
+
+  "about.title": "Sobre nosotros",
+  "about.body": "Productos auténticos de Brasil, soporte BG/PT/ES/EN, entrega en todo el país.",
 
   "offer.title": "Oferta especial",
   "offer.line1": "Solo esta semana: -10% a partir de 49 leva.",
@@ -45,7 +51,7 @@
   "order.email": "Correo electrónico",
   "order.phone": "Teléfono",
   "order.product": "Producto",
-  "order.consent": "Acepto la Política de Privacidad.",
+  "order.consent": "Acepto la",
   "order.marketing": "Deseo recibir ofertas y novedades.",
   "order.submit": "Enviar pedido",
   "order.note": "Nos pondremos en contacto para confirmar los detalles.",
@@ -56,5 +62,7 @@
   "footer.terms": "Términos",
   "footer.privacy": "Privacidad",
   "footer.cookies": "Cookies",
+  "footer.returns": "Devolución/Cancelación",
+  "footer.cookieSettings": "Gestionar cookies",
   "footer.contacts": "Contactos"
 }
